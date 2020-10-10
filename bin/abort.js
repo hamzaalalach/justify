@@ -30,7 +30,7 @@ module.exports = {
   paymentRequired: res => {
     return res.status(402).json({
       success: false,
-      error: 401,
+      error: 402,
       message: 'Qota limit reached, payment required'
     });
   }
