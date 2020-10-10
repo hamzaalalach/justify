@@ -20,6 +20,7 @@ module.exports = entry => {
         currentLineLength++;
         remainingCars--;
       }
+
       line += currentWord;
       currentLineLength += currentWord.length;
       remainingCars -= currentWord.length;
