@@ -1,12 +1,7 @@
 language: node_js
 node_js:
   - 12
-before_install:
-  - yarn global add snyk
 install:
   - yarn install
 script:
-  - snyk test
   - yarn test
-after_success:
-  - snyk monitor
