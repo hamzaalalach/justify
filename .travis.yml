@@ -1,6 +1,8 @@
 language: node_js
 node_js:
   - 12
+before_install:
+  - yarn add jest supertest
 install:
   - yarn install
 script:
