@@ -1,12 +1,12 @@
 language: node_js
 node_js:
-- 12
+  - 12
 before_install:
-- yarn add jest supertest
+  - yarn add jest supertest
 install:
-- yarn install
+  - yarn install
 script:
-- yarn test
+  - yarn test
 deploy:
   provider: heroku
   on: master
