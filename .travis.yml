@@ -8,9 +8,8 @@ install:
 script:
 - yarn test
 deploy:
-  matrix:
   - provider: heroku
   - true: master
   - app: hmjustify
-  api_key:
+  - api_key:
     secure: 2AmEawWaaOxMpjg+SzbO5LORIvTE7mFI0rifQqVbHFGXFJ4PkR7W7NY1lBTu8eiUPBHOLwFaz2z9XXzwX2A9JcAERNuZqRPHOHSndv7QZnQ/4fnAfDBTogdfnlUAfLSgXi5b/NuwgHsR8u52bfw+kMjzS1cU8ox9CW7YTuxxN0Z2XC8OFvMzcR0NlQC8S6ZN8WTI6T1F3a+6lhhQLUqkB/OtF3OQ2p5pf6/+ObrTFg8CJFTlqdSCK4hKoN1f0oAMzqa9GPbhZyvXXNpzVSpoIu75ZMuwWZRTNEcLZkrnQKytdddkEBxdIq7vG/0cCcg6oOBiHcaA3uGyFuWVdB4/Q51LHUCg1aFwkL/i8QI0imaXBAlOENudPeMGr4jLmfibf+IXjmn0H/anRQoApA0gE6Dpu2JpIsTs5YJrxDfRKgoAZ1H2D+PgF2WwHI6EGbDpgAN3NUeHALYIjLwNbW59bJ6tOfUqKAcsc7uk+Grnppercsl8uDxG9sawVT2tDlqFqK+nMkX7s+hTCahbAYGUv1Qs8Q2kTJxPzxUMQObfrDatiSyTBlptBEOGSNFHq0Y8Mq7e+XyXFg//6ElaHqDHLRb6WkmvcrheKneb9r9i0JIim1Fs2tczkTeObJyx0PiPR+nSfRxwddMbAA2Kl46ewfrkt0PMgy+BkrONlw6yglY=
