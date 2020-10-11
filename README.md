@@ -1,5 +1,5 @@
 # justify
-Made for Tictactip, coding challenge
+Made for Tictactrip, coding challenge
 
 Hosted at: [justify](https://hmjustify.herokuapp.com/)
 
